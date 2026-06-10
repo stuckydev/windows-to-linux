@@ -42,7 +42,7 @@ Personal list of apps and tools that still keep me from switching Windows to Lin
 |:-----:|-----|----------------|--------------|-------------------|
 | 🔴 | **League of Legends** *(Teamfight Tactics only)* | I only need the Riot client for TFT | ❌ Unplayable since Vanguard (Apr. 2024) | No Wine/Proton workaround — [Riot Vanguard](https://www.riotgames.com/en/vanguard) requires a Windows kernel driver (same client for LoL and TFT). Only option: [GeForce NOW](https://www.nvidia.com/en-us/geforce-now/) etc. (streaming, not local). |
 | 🟠 | **Magic: The Gathering Arena** | Play regularly; base for tracker tools | ⚠️ No native Linux | [Steam + Proton](https://store.steampowered.com/app/2141910/Magic_The_Gathering_Arena/) — [ProtonDB](https://www.protondb.com/app/2141910) “Playable”, but updates/patches often break things (black screen, switch Proton version). Also possible via Lutris/Wine. |
-| 🟢 | **17Lands Client** | MTG Arena — draft/meta tracking | ✅ Official Linux client (Python) | `pip install seventeenlands` — [official guide](https://www.17lands.com/getting_started). Manual log path for Steam/Proton. **In practice:** still not reliable for me. |
+| 🟢 | **17Lands Client** | MTG Arena — draft/meta tracking | ✅ Official Linux client (Python) | `pip install seventeenlands` — [official guide](https://www.17lands.com/getting_started). Manual log path when Arena runs via Steam/Proton. |
 | 🟠 | **Untapped.gg Client** | MTG Arena — stats & overlay | ❌ No native Linux client | Original app via [Protontricks/wine_untappedgg_companion](https://github.com/sabedevops/wine_untappedgg_companion); overlay often broken on Wayland. Replacement: [MTG Arena Tool](https://mtgatool.com/) (native, but different product). |
 
 **Traffic light summary:** 🟢 1 · 🟠 4 · 🔴 9
