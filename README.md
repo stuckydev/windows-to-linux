@@ -45,6 +45,12 @@ Personal list of apps and tools that still keep me from switching Windows to Lin
 | 🟢 | **17Lands Client** | MTG Arena — draft/meta tracking | ✅ Official Linux client (Python) | `pip install seventeenlands` — [official guide](https://www.17lands.com/getting_started). Manual log path when Arena runs via Steam/Proton. |
 | 🟠 | **Untapped.gg Client** | MTG Arena — stats & overlay | ❌ No native Linux client | Original app via [Protontricks/wine_untappedgg_companion](https://github.com/sabedevops/wine_untappedgg_companion); overlay often broken on Wayland. Replacement: [MTG Arena Tool](https://mtgatool.com/) (native, but different product). |
 
-**Traffic light summary:** 🟢 1 · 🟠 4 · 🔴 9
+### Traffic light summary
 
-TFT is fully blocked, MTG Arena + tracker chain stays fragile — gaming on Linux is still not a daily-driver setup for me.
+```mermaid
+pie showData
+    title Traffic light summary
+    "🟢 Green" : 1
+    "🟠 Orange" : 4
+    "🔴 Red" : 9
+```
