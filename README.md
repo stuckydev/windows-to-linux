@@ -36,22 +36,26 @@ Persönliche Liste von Apps und Tools, die mich (noch) am Wechsel von Windows zu
 | 🔴 | **Logitech G HUB** | 4 Geräte: Updates, Steuerung, Batteriestatus | ❌ Kein Linux-Client | [Solaar](https://github.com/pwr-Solaar/Solaar), [Piper](https://github.com/libratbag/piper)/[libratbag](https://github.com/libratbag/libratbag) — kein Firmware-Update, eingeschränkte Features. |
 | 🟠 | **WhatsApp Desktop** | Messenger im Alltag | ❌ Kein offizieller Linux-Client | PWA / WhatsApp Web (meiste Chat-Features); Wrapper [Whatsie](https://flathub.org/apps/com.ktechpit.whatsie), [Karere](https://github.com/tobagin/karere), [whatRust](https://github.com/karem505/whatRust) — inoffiziell. |
 
-## Gaming — absolute Blocker
+## Gaming
 
 | Ampel | App | Warum relevant | Linux-Status | Alternative (Linux) |
 |:-----:|-----|----------------|--------------|---------------------|
+| 🔴 | **League of Legends** | Regelmäßig gespielt | ❌ Unspielbar seit Vanguard (Apr. 2024) | Kein Wine/Proton-Workaround — [Riot Vanguard](https://www.riotgames.com/en/vanguard) braucht Windows-Kernel-Treiber. Einziger Ausweg: [GeForce NOW](https://www.nvidia.com/en-us/geforce-now/) o. Ä. (Streaming, nicht lokal). |
+| 🟠 | **Magic: The Gathering Arena** | Regelmäßig gespielt; Basis für Tracker-Tools | ⚠️ Kein natives Linux | [Steam + Proton](https://store.steampowered.com/app/2141910/Magic_The_Gathering_Arena/) — [ProtonDB](https://www.protondb.com/app/2141910) „Playable“, aber Updates/Patches brechen regelmäßig (Black Screen, Proton-Version wechseln). Auch via Lutris/Wine möglich. |
 | 🟢 | **17Lands Client** | MTG Arena — Draft-/Meta-Tracking | ✅ Offizieller Linux-Client (Python) | `pip install seventeenlands` — [offizielle Anleitung](https://www.17lands.com/getting_started). Log-Pfad bei Steam/Proton manuell. **Praxis:** bei mir noch nicht zuverlässig. |
 | 🟠 | **Untapped.gg Client** | MTG Arena — Stats & Overlay | ❌ Kein nativer Linux-Client | Original-App via [Protontricks/wine_untappedgg_companion](https://github.com/sabedevops/wine_untappedgg_companion); Overlay unter Wayland oft kaputt. Ersatz: [MTG Arena Tool](https://mtgatool.com/) (nativ, aber anderes Produkt). |
 
-**Stand Ampel:** 🟢 1 · 🟠 3 · 🔴 8
+**Stand Ampel:** 🟢 1 · 🟠 4 · 🔴 9
 
-Diese beiden MTG-Tools plus die fragile Arena-Proton-Kette machen Gaming auf Linux für mich weiterhin unrealistisch als Daily Driver.
+LoL ist komplett blockiert, MTG Arena + Tracker-Kette bleibt fragil — Gaming auf Linux für mich weiterhin kein Daily-Driver-Setup.
 
 ---
 
 ## Notizen zum letzten Test (2026-06-11)
 
 - Liste bewusst ohne „Web geht auch“-Ausreden geprüft — es zählt, was am Desktop wirklich funktioniert.
-- **Überraschung bei der Recherche:** 17Lands hat einen offiziellen Linux-Client (🟢); Untapped nur via Proton (🟠).
+- **LoL:** seit Vanguard (Apr. 2024) 🔴 — kein lokales Spielen mehr unter Linux.
+- **MTG Arena:** 🟠 via Proton spielbar, aber nicht nativ und update-anfällig.
+- **17Lands** hat offiziellen Linux-Client (🟢); **Untapped** nur via Proton (🟠).
 - Stream Deck und Logitech: Community-Lösungen existieren, Ampel bleibt 🔴 (inoffiziell / Feature-Lücken).
 - WhatsApp: 🟠 — PWA/Wrapper reicht für Chat, kein offizieller Desktop-Client.
