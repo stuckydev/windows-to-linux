@@ -90,6 +90,13 @@ Personal list of apps and tools that still keep me from switching Windows to Lin
 <td>✅ Official Linux client</td>
 <td bgcolor="#16a34a"><font color="#ffffff"><strong>5/5</strong> — Official app with desktop feature parity<br/><br/><a href="https://www.todoist.com/downloads/linux"><font color="#ffffff">Todoist for Linux</font></a> via <a href="https://snapcraft.io/todoist"><font color="#ffffff">Snap</font></a> or AppImage.</font></td>
 </tr>
+<tr>
+<td align="center">🟢</td>
+<td><strong>Cursor</strong></td>
+<td>Primary IDE / dev workflow</td>
+<td>✅ Official Linux client</td>
+<td bgcolor="#16a34a"><font color="#ffffff"><strong>5/5</strong> — Official desktop app on Linux<br/><br/><a href="https://cursor.com/download"><font color="#ffffff">Cursor</font></a> — .deb/.rpm (APT repo), AppImage; <a href="https://cursor.com/docs/cli/overview"><font color="#ffffff">Agent CLI</font></a> via <code>curl https://cursor.com/install -fsS | bash</code>.</font></td>
+</tr>
 </tbody>
 </table>
 
