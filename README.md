@@ -20,49 +20,182 @@ Personal list of apps and tools that still keep me from switching Windows to Lin
 
 Subjective score for how well Linux covers the same job today — independent of the traffic light above.
 
-| Score | Meaning |
-|-------|---------|
-| <span style="background-color:#dc2626;color:#fff;padding:2px 8px;border-radius:4px;font-weight:600">1/5</span> | Blocked — not runnable on Linux |
-| <span style="background-color:#ea580c;color:#fff;padding:2px 8px;border-radius:4px;font-weight:600">2/5</span> | Poor — barely usable, major gaps |
-| <span style="background-color:#ca8a04;color:#fff;padding:2px 8px;border-radius:4px;font-weight:600">3/5</span> | Fair — usable with workarounds or partial replacements |
-| <span style="background-color:#65a30d;color:#fff;padding:2px 8px;border-radius:4px;font-weight:600">4/5</span> | Good — solid alternatives or minor gaps only |
-| <span style="background-color:#16a34a;color:#fff;padding:2px 8px;border-radius:4px;font-weight:600">5/5</span> | Excellent — native/official, full workflow |
+<table>
+<thead>
+<tr>
+<th>Score</th>
+<th>Meaning</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td bgcolor="#dc2626" align="center"><font color="#ffffff"><strong>1/5</strong></font></td>
+<td>Blocked — not runnable on Linux</td>
+</tr>
+<tr>
+<td bgcolor="#ea580c" align="center"><font color="#ffffff"><strong>2/5</strong></font></td>
+<td>Poor — barely usable, major gaps</td>
+</tr>
+<tr>
+<td bgcolor="#ca8a04" align="center"><font color="#ffffff"><strong>3/5</strong></font></td>
+<td>Fair — usable with workarounds or partial replacements</td>
+</tr>
+<tr>
+<td bgcolor="#65a30d" align="center"><font color="#ffffff"><strong>4/5</strong></font></td>
+<td>Good — solid alternatives or minor gaps only</td>
+</tr>
+<tr>
+<td bgcolor="#16a34a" align="center"><font color="#ffffff"><strong>5/5</strong></font></td>
+<td>Excellent — native/official, full workflow</td>
+</tr>
+</tbody>
+</table>
 
 ---
 
 ## Productivity & Work
 
-| | App | Why it matters | Linux status | Linux alternative | Compatibility |
-|:-----:|-----|----------------|--------------|-------------------|:-------------:|
-| 🔴 | **Microsoft Office** (esp. Excel) | Need native Excel for client solutions and live demos | ❌ No native Office | [LibreOffice Calc](https://www.libreoffice.org/), [ONLYOFFICE Desktop](https://www.onlyoffice.com/) — OOXML ok for basics, breaks on VBA, Power Query/Pivot; unusable for client demos. Workaround: Windows VM. | <span style="background-color:#dc2626;color:#fff;padding:2px 8px;border-radius:4px;font-weight:600">1/5</span> Spreadsheets yes, Excel-for-clients no |
-| 🔴 | **Microsoft Power BI Desktop** | Reporting / BI workflow | ❌ Windows (and macOS) only | [Metabase](https://www.metabase.com/), [Apache Superset](https://superset.apache.org/), [Grafana](https://grafana.com/) — different BI stacks, no `.pbix`, no DAX/M. Workaround: Windows VM. | <span style="background-color:#dc2626;color:#fff;padding:2px 8px;border-radius:4px;font-weight:600">1/5</span> Other BI tools, not Power BI |
-| 🟠 | **Microsoft Teams** (Desktop) | Customer support — desktop client has to feel right | ❌ Official Linux client discontinued (Dec. 2022) | [Teams PWA](https://www.microsoft.com/en-us/microsoft-teams/download-app) (official, Edge/Chrome) — most features, not full desktop parity; [teams-for-linux](https://github.com/IsmaelMartinez/teams-for-linux) unofficial. | <span style="background-color:#ca8a04;color:#fff;padding:2px 8px;border-radius:4px;font-weight:600">3/5</span> Official PWA fine for chat/calls; power-user gaps |
-| 🔴 | **WorkingHours** | Main time-tracking app | ❌ Windows, macOS, Android, iOS only | [Furtherance](https://github.com/unobserved-io/Furtherance), [TimeWorm](https://github.com/instantolap/timeworm), [ZeroClock](https://apps.lashman.live/zeroclock/), [Toggl Track](https://toggl.com/track/) — different apps, no feature parity. | <span style="background-color:#ca8a04;color:#fff;padding:2px 8px;border-radius:4px;font-weight:600">3/5</span> Good trackers exist, not WorkingHours |
+<table>
+<thead>
+<tr>
+<th></th>
+<th>App</th>
+<th>Why it matters</th>
+<th>Linux status</th>
+<th>Linux alternative</th>
+<th>Compatibility</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">🔴</td>
+<td><strong>Microsoft Office</strong> (esp. Excel)</td>
+<td>Need native Excel for client solutions and live demos</td>
+<td>❌ No native Office</td>
+<td><a href="https://www.libreoffice.org/">LibreOffice Calc</a>, <a href="https://www.onlyoffice.com/">ONLYOFFICE Desktop</a> — OOXML ok for basics, breaks on VBA, Power Query/Pivot; unusable for client demos. Workaround: Windows VM.</td>
+<td bgcolor="#dc2626"><font color="#ffffff"><strong>1/5</strong><br/>Spreadsheets yes, Excel-for-clients no</font></td>
+</tr>
+<tr>
+<td align="center">🔴</td>
+<td><strong>Microsoft Power BI Desktop</strong></td>
+<td>Reporting / BI workflow</td>
+<td>❌ Windows (and macOS) only</td>
+<td><a href="https://www.metabase.com/">Metabase</a>, <a href="https://superset.apache.org/">Apache Superset</a>, <a href="https://grafana.com/">Grafana</a> — different BI stacks, no <code>.pbix</code>, no DAX/M. Workaround: Windows VM.</td>
+<td bgcolor="#dc2626"><font color="#ffffff"><strong>1/5</strong><br/>Other BI tools, not Power BI</font></td>
+</tr>
+<tr>
+<td align="center">🟠</td>
+<td><strong>Microsoft Teams</strong> (Desktop)</td>
+<td>Customer support — desktop client has to feel right</td>
+<td>❌ Official Linux client discontinued (Dec. 2022)</td>
+<td><a href="https://www.microsoft.com/en-us/microsoft-teams/download-app">Teams PWA</a> (official, Edge/Chrome) — most features, not full desktop parity; <a href="https://github.com/IsmaelMartinez/teams-for-linux">teams-for-linux</a> unofficial.</td>
+<td bgcolor="#ca8a04"><font color="#ffffff"><strong>3/5</strong><br/>Official PWA fine for chat/calls; power-user gaps</font></td>
+</tr>
+<tr>
+<td align="center">🔴</td>
+<td><strong>WorkingHours</strong></td>
+<td>Main time-tracking app</td>
+<td>❌ Windows, macOS, Android, iOS only</td>
+<td><a href="https://github.com/unobserved-io/Furtherance">Furtherance</a>, <a href="https://github.com/instantolap/timeworm">TimeWorm</a>, <a href="https://apps.lashman.live/zeroclock/">ZeroClock</a>, <a href="https://toggl.com/track/">Toggl Track</a> — different apps, no feature parity.</td>
+<td bgcolor="#ca8a04"><font color="#ffffff"><strong>3/5</strong><br/>Good trackers exist, not WorkingHours</font></td>
+</tr>
+</tbody>
+</table>
 
 ## Tools & Hardware
 
-| | App | Why it matters | Linux status | Linux alternative | Compatibility |
-|:-----:|-----|----------------|--------------|-------------------|:-------------:|
-| 🔴 | **ShareX** | Screenshots & screen recording — fast, flexible, best tool for me | ⚠️ No ShareX, replacements exist | [ShotX](https://github.com/vedesh-padal/ShotX) / [SnapX](https://github.com/SnapXL/SnapX) — screenshot + recording in one app; [Flameshot](https://flameshot.org/) for capture-only. ShareX-level upload automation still ahead. | <span style="background-color:#65a30d;color:#fff;padding:2px 8px;border-radius:4px;font-weight:600">4/5</span> One-app capture + record is covered; polish/automation behind ShareX |
-| 🔴 | **Elgato Stream Deck** | Controls hardware on my desk (1 device) | ⚠️ No Elgato software | [OpenDeck](https://github.com/nekename/OpenDeck), [StreamController](https://github.com/StreamController/StreamController) — unofficial, beta, plugin gaps. | <span style="background-color:#ca8a04;color:#fff;padding:2px 8px;border-radius:4px;font-weight:600">3/5</span> OpenDeck viable; unofficial, not every plugin |
-| 🔴 | **Logitech G HUB** | 4 devices: updates, control, battery status | ❌ No Linux client | [Solaar](https://github.com/pwr-Solaar/Solaar), [Piper](https://github.com/libratbag/piper)/[libratbag](https://github.com/libratbag/libratbag) — no firmware updates, limited features. | <span style="background-color:#ea580c;color:#fff;padding:2px 8px;border-radius:4px;font-weight:600">2/5</span> Basic config/battery; no firmware, incomplete for G ecosystem |
-| 🟠 | **WhatsApp Desktop** | Everyday messaging | ❌ No official Linux client | PWA / WhatsApp Web (most chat features); wrappers [Whatsie](https://flathub.org/apps/com.ktechpit.whatsie), [Karere](https://github.com/tobagin/karere), [whatRust](https://github.com/karem505/whatRust) — unofficial. | <span style="background-color:#65a30d;color:#fff;padding:2px 8px;border-radius:4px;font-weight:600">4/5</span> Messaging/calls via PWA or wrapper work well |
+<table>
+<thead>
+<tr>
+<th></th>
+<th>App</th>
+<th>Why it matters</th>
+<th>Linux status</th>
+<th>Linux alternative</th>
+<th>Compatibility</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">🔴</td>
+<td><strong>ShareX</strong></td>
+<td>Screenshots &amp; screen recording — fast, flexible, best tool for me</td>
+<td>⚠️ No ShareX, replacements exist</td>
+<td><a href="https://github.com/vedesh-padal/ShotX">ShotX</a> / <a href="https://github.com/SnapXL/SnapX">SnapX</a> — screenshot + recording in one app; <a href="https://flameshot.org/">Flameshot</a> for capture-only. ShareX-level upload automation still ahead.</td>
+<td bgcolor="#65a30d"><font color="#ffffff"><strong>4/5</strong><br/>One-app capture + record is covered; polish/automation behind ShareX</font></td>
+</tr>
+<tr>
+<td align="center">🔴</td>
+<td><strong>Elgato Stream Deck</strong></td>
+<td>Controls hardware on my desk (1 device)</td>
+<td>⚠️ No Elgato software</td>
+<td><a href="https://github.com/nekename/OpenDeck">OpenDeck</a>, <a href="https://github.com/StreamController/StreamController">StreamController</a> — unofficial, beta, plugin gaps.</td>
+<td bgcolor="#ca8a04"><font color="#ffffff"><strong>3/5</strong><br/>OpenDeck viable; unofficial, not every plugin</font></td>
+</tr>
+<tr>
+<td align="center">🔴</td>
+<td><strong>Logitech G HUB</strong></td>
+<td>4 devices: updates, control, battery status</td>
+<td>❌ No Linux client</td>
+<td><a href="https://github.com/pwr-Solaar/Solaar">Solaar</a>, <a href="https://github.com/libratbag/piper">Piper</a>/<a href="https://github.com/libratbag/libratbag">libratbag</a> — no firmware updates, limited features.</td>
+<td bgcolor="#ea580c"><font color="#ffffff"><strong>2/5</strong><br/>Basic config/battery; no firmware, incomplete for G ecosystem</font></td>
+</tr>
+<tr>
+<td align="center">🟠</td>
+<td><strong>WhatsApp Desktop</strong></td>
+<td>Everyday messaging</td>
+<td>❌ No official Linux client</td>
+<td>PWA / WhatsApp Web (most chat features); wrappers <a href="https://flathub.org/apps/com.ktechpit.whatsie">Whatsie</a>, <a href="https://github.com/tobagin/karere">Karere</a>, <a href="https://github.com/karem505/whatRust">whatRust</a> — unofficial.</td>
+<td bgcolor="#65a30d"><font color="#ffffff"><strong>4/5</strong><br/>Messaging/calls via PWA or wrapper work well</font></td>
+</tr>
+</tbody>
+</table>
 
 ## Gaming
 
-| | App | Why it matters | Linux status | Linux alternative | Compatibility |
-|:-----:|-----|----------------|--------------|-------------------|:-------------:|
-| 🔴 | **League of Legends** *(Teamfight Tactics only)* | I only need the Riot client for TFT | ❌ Unplayable since Vanguard (Apr. 2024) | No Wine/Proton workaround — [Riot Vanguard](https://www.riotgames.com/en/vanguard) requires a Windows kernel driver (same client for LoL and TFT). Only option: [GeForce NOW](https://www.nvidia.com/en-us/geforce-now/) etc. (streaming, not local). | <span style="background-color:#dc2626;color:#fff;padding:2px 8px;border-radius:4px;font-weight:600">1/5</span> Blocked locally; cloud streaming only |
-| 🟠 | **Magic: The Gathering Arena** | Play regularly; base for tracker tools | ⚠️ No native Linux | [Steam + Proton](https://store.steampowered.com/app/2141910/Magic_The_Gathering_Arena/) — [ProtonDB](https://www.protondb.com/app/2141910) “Playable”, but updates/patches often break things (black screen, switch Proton version). Also possible via Lutris/Wine. | <span style="background-color:#ca8a04;color:#fff;padding:2px 8px;border-radius:4px;font-weight:600">3/5</span> Playable via Proton; patch/version roulette |
-| 🟢 | **17Lands Client** | MTG Arena — draft/meta tracking | ✅ Official Linux client (Python) | `pip install seventeenlands` — [official guide](https://www.17lands.com/getting_started). Manual log path when Arena runs via Steam/Proton. | <span style="background-color:#65a30d;color:#fff;padding:2px 8px;border-radius:4px;font-weight:600">4/5</span> Official client; extra setup for Proton log path |
-| 🟠 | **Untapped.gg Client** | MTG Arena — stats & overlay | ❌ No native Linux client | Original app via [Protontricks/wine_untappedgg_companion](https://github.com/sabedevops/wine_untappedgg_companion); overlay often broken on Wayland. Replacement: [MTG Arena Tool](https://mtgatool.com/) (native, but different product). | <span style="background-color:#ea580c;color:#fff;padding:2px 8px;border-radius:4px;font-weight:600">2/5</span> Proton workaround fragile; overlay unreliable |
-
-### Traffic light summary
-
-```mermaid
-pie showData
-    title Traffic light summary
-    "🟢 Green" : 1
-    "🟠 Orange" : 4
-    "🔴 Red" : 9
-```
+<table>
+<thead>
+<tr>
+<th></th>
+<th>App</th>
+<th>Why it matters</th>
+<th>Linux status</th>
+<th>Linux alternative</th>
+<th>Compatibility</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">🔴</td>
+<td><strong>League of Legends</strong> <em>(Teamfight Tactics only)</em></td>
+<td>I only need the Riot client for TFT</td>
+<td>❌ Unplayable since Vanguard (Apr. 2024)</td>
+<td>No Wine/Proton workaround — <a href="https://www.riotgames.com/en/vanguard">Riot Vanguard</a> requires a Windows kernel driver (same client for LoL and TFT). Only option: <a href="https://www.nvidia.com/en-us/geforce-now/">GeForce NOW</a> etc. (streaming, not local).</td>
+<td bgcolor="#dc2626"><font color="#ffffff"><strong>1/5</strong><br/>Blocked locally; cloud streaming only</font></td>
+</tr>
+<tr>
+<td align="center">🟠</td>
+<td><strong>Magic: The Gathering Arena</strong></td>
+<td>Play regularly; base for tracker tools</td>
+<td>⚠️ No native Linux</td>
+<td><a href="https://store.steampowered.com/app/2141910/Magic_The_Gathering_Arena/">Steam + Proton</a> — <a href="https://www.protondb.com/app/2141910">ProtonDB</a> “Playable”, but updates/patches often break things (black screen, switch Proton version). Also possible via Lutris/Wine.</td>
+<td bgcolor="#ca8a04"><font color="#ffffff"><strong>3/5</strong><br/>Playable via Proton; patch/version roulette</font></td>
+</tr>
+<tr>
+<td align="center">🟢</td>
+<td><strong>17Lands Client</strong></td>
+<td>MTG Arena — draft/meta tracking</td>
+<td>✅ Official Linux client (Python)</td>
+<td><code>pip install seventeenlands</code> — <a href="https://www.17lands.com/getting_started">official guide</a>. Manual log path when Arena runs via Steam/Proton.</td>
+<td bgcolor="#65a30d"><font color="#ffffff"><strong>4/5</strong><br/>Official client; extra setup for Proton log path</font></td>
+</tr>
+<tr>
+<td align="center">🟠</td>
+<td><strong>Untapped.gg Client</strong></td>
+<td>MTG Arena — stats &amp; overlay</td>
+<td>❌ No native Linux client</td>
+<td>Original app via <a href="https://github.com/sabedevops/wine_untappedgg_companion">Protontricks/wine_untappedgg_companion</a>; overlay often broken on Wayland. Replacement: <a href="https://mtgatool.com/">MTG Arena Tool</a> (native, but different product).</td>
+<td bgcolor="#ea580c"><font color="#ffffff"><strong>2/5</strong><br/>Proton workaround fragile; overlay unreliable</font></td>
+</tr>
+</tbody>
+</table>
