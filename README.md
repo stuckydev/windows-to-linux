@@ -48,14 +48,3 @@ Persönliche Liste von Apps und Tools, die mich (noch) am Wechsel von Windows zu
 **Stand Ampel:** 🟢 1 · 🟠 4 · 🔴 9
 
 LoL ist komplett blockiert, MTG Arena + Tracker-Kette bleibt fragil — Gaming auf Linux für mich weiterhin kein Daily-Driver-Setup.
-
----
-
-## Notizen zum letzten Test (2026-06-11)
-
-- Liste bewusst ohne „Web geht auch“-Ausreden geprüft — es zählt, was am Desktop wirklich funktioniert.
-- **LoL:** seit Vanguard (Apr. 2024) 🔴 — kein lokales Spielen mehr unter Linux.
-- **MTG Arena:** 🟠 via Proton spielbar, aber nicht nativ und update-anfällig.
-- **17Lands** hat offiziellen Linux-Client (🟢); **Untapped** nur via Proton (🟠).
-- Stream Deck und Logitech: Community-Lösungen existieren, Ampel bleibt 🔴 (inoffiziell / Feature-Lücken).
-- WhatsApp: 🟠 — PWA/Wrapper reicht für Chat, kein offizieller Desktop-Client.
