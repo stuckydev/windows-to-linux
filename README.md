@@ -111,7 +111,7 @@ Subjective score for how well Linux covers the same job today — independent of
 </thead>
 <tbody>
 <tr>
-<td align="center">🔴</td>
+<td align="center">🟠</td>
 <td><strong>ShareX</strong></td>
 <td>Screenshots &amp; screen recording — fast, flexible, best tool for me</td>
 <td>⚠️ No ShareX, replacements exist</td>
