@@ -49,6 +49,13 @@ Personal list of apps and tools that still keep me from switching Windows to Lin
 <td bgcolor="#ca8a04"><font color="#ffffff"><strong>3/5</strong> — Fine for chat/calls; gaps for power-user support<br/><br/><a href="https://www.microsoft.com/en-us/microsoft-teams/download-app"><font color="#ffffff">Teams PWA</font></a> (official), <a href="https://github.com/IsmaelMartinez/teams-for-linux"><font color="#ffffff">teams-for-linux</font></a> (unofficial).</font></td>
 </tr>
 <tr>
+<td align="center">🟠</td>
+<td><strong>Microsoft OneDrive</strong></td>
+<td>Cloud file sync across devices</td>
+<td>❌ No official Linux client</td>
+<td bgcolor="#65a30d"><font color="#ffffff"><strong>4/5</strong> — Solid sync via community clients; not the official app<br/><br/><a href="https://github.com/abraunegg/onedrive"><font color="#ffffff">onedrive</font></a> + <a href="https://github.com/bpozdena/OneDriveGUI"><font color="#ffffff">OneDriveGUI</font></a>, <a href="https://github.com/jstaf/onedriver"><font color="#ffffff">onedriver</font></a>, <a href="https://github.com/Auriora/OneMount"><font color="#ffffff">OneMount</font></a>, <a href="https://rclone.org/"><font color="#ffffff">rclone</font></a>.</font></td>
+</tr>
+<tr>
 <td align="center">🔴</td>
 <td><strong>WorkingHours</strong></td>
 <td>Main time-tracking app</td>
