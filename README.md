@@ -62,6 +62,27 @@ Personal list of apps and tools that still keep me from switching Windows to Lin
 <td>❌ Windows, macOS, Android, iOS only</td>
 <td bgcolor="#ca8a04"><font color="#ffffff"><strong>3/5</strong> — Mature time trackers, different feature set<br/><br/><a href="https://github.com/unobserved-io/Furtherance"><font color="#ffffff">Furtherance</font></a>, <a href="https://github.com/instantolap/timeworm"><font color="#ffffff">TimeWorm</font></a>, <a href="https://apps.lashman.live/zeroclock/"><font color="#ffffff">ZeroClock</font></a>, <a href="https://toggl.com/track/"><font color="#ffffff">Toggl Track</font></a>.</font></td>
 </tr>
+<tr>
+<td align="center">🟠</td>
+<td><strong>Notion</strong></td>
+<td>Notes and workspace</td>
+<td>❌ No official Linux client</td>
+<td bgcolor="#65a30d"><font color="#ffffff"><strong>4/5</strong> — Full workflow via web; no official desktop app<br/><br/>Notion in browser / PWA; <a href="https://github.com/anechunaev/notion-electron"><font color="#ffffff">Notion Electron</font></a> (unofficial).</font></td>
+</tr>
+<tr>
+<td align="center">🟢</td>
+<td><strong>Morgen</strong></td>
+<td>Calendar and daily planning</td>
+<td>✅ Official Linux client</td>
+<td bgcolor="#16a34a"><font color="#ffffff"><strong>5/5</strong> — Official desktop app on Linux<br/><br/><a href="https://www.morgen.so/morgen-for-linux"><font color="#ffffff">Morgen</font></a> via <a href="https://snapcraft.io/morgen"><font color="#ffffff">Snap</font></a> or <a href="https://web.morgen.so/"><font color="#ffffff">web</font></a>.</font></td>
+</tr>
+<tr>
+<td align="center">🟢</td>
+<td><strong>Todoist</strong></td>
+<td>Task management</td>
+<td>✅ Official Linux client</td>
+<td bgcolor="#16a34a"><font color="#ffffff"><strong>5/5</strong> — Official app with desktop feature parity<br/><br/><a href="https://www.todoist.com/downloads/linux"><font color="#ffffff">Todoist for Linux</font></a> via <a href="https://snapcraft.io/todoist"><font color="#ffffff">Snap</font></a> or AppImage.</font></td>
+</tr>
 </tbody>
 </table>
 
