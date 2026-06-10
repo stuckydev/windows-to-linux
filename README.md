@@ -2,7 +2,7 @@
 
 Personal list of apps and tools that still keep me from switching Windows to Linux as a daily driver — because they don't run on Linux or lack good alternatives.
 
-**Last checked:** June 11, 2026
+**Last checked:** June 10, 2026
 
 ### Traffic light
 
@@ -31,22 +31,22 @@ Personal list of apps and tools that still keep me from switching Windows to Lin
 <td align="center">🔴</td>
 <td><strong>Microsoft Office</strong> (esp. Excel)</td>
 <td>Need native Excel for client solutions and live demos</td>
-<td>❌ No native Office</td>
+<td>❌ No native Office; web/PWA only</td>
 <td bgcolor="#dc2626"><font color="#ffffff"><strong>1/5</strong> — No substitute for client-facing Excel workflows<br/><br/><a href="https://www.libreoffice.org/"><font color="#ffffff">LibreOffice Calc</font></a>, <a href="https://www.onlyoffice.com/"><font color="#ffffff">ONLYOFFICE Desktop</font></a>; Windows VM for native Excel.</font></td>
 </tr>
 <tr>
 <td align="center">🔴</td>
 <td><strong>Microsoft Power BI Desktop</strong></td>
 <td>Reporting / BI workflow</td>
-<td>❌ Windows (and macOS) only</td>
-<td bgcolor="#dc2626"><font color="#ffffff"><strong>1/5</strong> — No Power BI Desktop workflow on Linux<br/><br/><a href="https://www.metabase.com/"><font color="#ffffff">Metabase</font></a>, <a href="https://superset.apache.org/"><font color="#ffffff">Apache Superset</font></a>, <a href="https://grafana.com/"><font color="#ffffff">Grafana</font></a>; Windows VM for <code>.pbix</code> / DAX/M.</font></td>
+<td>❌ Power BI Desktop is Windows-only</td>
+<td bgcolor="#ea580c"><font color="#ffffff"><strong>2/5</strong> — Limited web modeling/reporting; Desktop remains Windows-only<br/><br/><a href="https://powerbi.microsoft.com/"><font color="#ffffff">Power BI Service</font></a>, <a href="https://www.metabase.com/"><font color="#ffffff">Metabase</font></a>, <a href="https://superset.apache.org/"><font color="#ffffff">Apache Superset</font></a>, <a href="https://grafana.com/"><font color="#ffffff">Grafana</font></a>; Windows VM for <code>.pbix</code> / DAX/M.</font></td>
 </tr>
 <tr>
 <td align="center">🟠</td>
 <td><strong>Microsoft Teams</strong> (Desktop)</td>
 <td>Customer support — desktop client has to feel right</td>
-<td>❌ Official Linux client discontinued (Dec. 2022)</td>
-<td bgcolor="#ca8a04"><font color="#ffffff"><strong>3/5</strong> — Fine for chat/calls; gaps for power-user support<br/><br/><a href="https://www.microsoft.com/en-us/microsoft-teams/download-app"><font color="#ffffff">Teams PWA</font></a> (official), <a href="https://github.com/IsmaelMartinez/teams-for-linux"><font color="#ffffff">teams-for-linux</font></a> (unofficial).</font></td>
+<td>✅ Official Teams PWA; native Linux client discontinued</td>
+<td bgcolor="#65a30d"><font color="#ffffff"><strong>4/5</strong> — Official PWA covers core workflow; some desktop/device gaps<br/><br/><a href="https://www.microsoft.com/en-us/microsoft-teams/download-app"><font color="#ffffff">Teams PWA</font></a> (official), <a href="https://github.com/IsmaelMartinez/teams-for-linux"><font color="#ffffff">teams-for-linux</font></a> (unofficial).</font></td>
 </tr>
 <tr>
 <td align="center">🟠</td>
@@ -68,34 +68,6 @@ Personal list of apps and tools that still keep me from switching Windows to Lin
 <td>Notes and workspace</td>
 <td>❌ No official Linux client</td>
 <td bgcolor="#65a30d"><font color="#ffffff"><strong>4/5</strong> — Full workflow via web; no official desktop app<br/><br/>Notion in browser / PWA; <a href="https://github.com/anechunaev/notion-electron"><font color="#ffffff">Notion Electron</font></a> (unofficial).</font></td>
-</tr>
-<tr>
-<td align="center">🟢</td>
-<td><strong>Obsidian</strong></td>
-<td>Notes and knowledge base</td>
-<td>✅ Official Linux client</td>
-<td bgcolor="#16a34a"><font color="#ffffff"><strong>5/5</strong> — Official desktop app on Linux<br/><br/><a href="https://obsidian.md/download"><font color="#ffffff">Obsidian</font></a> — AppImage, Snap, Deb, <a href="https://flathub.org/apps/md.obsidian.Obsidian"><font color="#ffffff">Flatpak</font></a>.</font></td>
-</tr>
-<tr>
-<td align="center">🟢</td>
-<td><strong>Morgen</strong></td>
-<td>Calendar and daily planning</td>
-<td>✅ Official Linux client</td>
-<td bgcolor="#16a34a"><font color="#ffffff"><strong>5/5</strong> — Official desktop app on Linux<br/><br/><a href="https://www.morgen.so/morgen-for-linux"><font color="#ffffff">Morgen</font></a> via <a href="https://snapcraft.io/morgen"><font color="#ffffff">Snap</font></a> or <a href="https://web.morgen.so/"><font color="#ffffff">web</font></a>.</font></td>
-</tr>
-<tr>
-<td align="center">🟢</td>
-<td><strong>Todoist</strong></td>
-<td>Task management</td>
-<td>✅ Official Linux client</td>
-<td bgcolor="#16a34a"><font color="#ffffff"><strong>5/5</strong> — Official app with desktop feature parity<br/><br/><a href="https://www.todoist.com/downloads/linux"><font color="#ffffff">Todoist for Linux</font></a> via <a href="https://snapcraft.io/todoist"><font color="#ffffff">Snap</font></a> or AppImage.</font></td>
-</tr>
-<tr>
-<td align="center">🟢</td>
-<td><strong>Cursor</strong></td>
-<td>Primary IDE / dev workflow</td>
-<td>✅ Official Linux client</td>
-<td bgcolor="#16a34a"><font color="#ffffff"><strong>5/5</strong> — Official desktop app on Linux<br/><br/><a href="https://cursor.com/download"><font color="#ffffff">Cursor</font></a> — .deb/.rpm (APT repo), AppImage; <a href="https://cursor.com/docs/cli/overview"><font color="#ffffff">Agent CLI</font></a> via <code>curl https://cursor.com/install -fsS | bash</code>.</font></td>
 </tr>
 </tbody>
 </table>
@@ -138,7 +110,7 @@ Personal list of apps and tools that still keep me from switching Windows to Lin
 <td align="center">🟠</td>
 <td><strong>WhatsApp Desktop</strong></td>
 <td>Everyday messaging</td>
-<td>❌ No official Linux client</td>
+<td>✅ Official WhatsApp Web/PWA; no Linux desktop client</td>
 <td bgcolor="#65a30d"><font color="#ffffff"><strong>4/5</strong> — Daily messaging works without official client<br/><br/>WhatsApp Web / PWA; <a href="https://flathub.org/apps/com.ktechpit.whatsie"><font color="#ffffff">Whatsie</font></a>, <a href="https://github.com/tobagin/karere"><font color="#ffffff">Karere</font></a>, <a href="https://github.com/karem505/whatRust"><font color="#ffffff">whatRust</font></a>.</font></td>
 </tr>
 </tbody>
@@ -161,8 +133,8 @@ Personal list of apps and tools that still keep me from switching Windows to Lin
 <td align="center">🔴</td>
 <td><strong>League of Legends</strong> <em>(Teamfight Tactics only)</em></td>
 <td>I only need the Riot client for TFT</td>
-<td>❌ Unplayable since Vanguard (Apr. 2024)</td>
-<td bgcolor="#dc2626"><font color="#ffffff"><strong>1/5</strong> — Blocked for local play<br/><br/><a href="https://www.nvidia.com/en-us/geforce-now/"><font color="#ffffff">GeForce NOW</font></a> (cloud streaming).</font></td>
+<td>❌ Desktop TFT blocked by Vanguard</td>
+<td bgcolor="#dc2626"><font color="#ffffff"><strong>1/5</strong> — No usable Linux path for desktop TFT<br/><br/><a href="https://leagueoflinux.org/other_games/teamfight_tactics/"><font color="#ffffff">League of Linux TFT status</font></a>; dual-boot / external Windows install only.</font></td>
 </tr>
 <tr>
 <td align="center">🟠</td>
@@ -170,13 +142,6 @@ Personal list of apps and tools that still keep me from switching Windows to Lin
 <td>Play regularly; base for tracker tools</td>
 <td>⚠️ No native Linux</td>
 <td bgcolor="#ca8a04"><font color="#ffffff"><strong>3/5</strong> — Playable via Proton; patch/version roulette<br/><br/><a href="https://store.steampowered.com/app/2141910/Magic_The_Gathering_Arena/"><font color="#ffffff">Steam + Proton</font></a> (<a href="https://www.protondb.com/app/2141910"><font color="#ffffff">ProtonDB</font></a>), Lutris/Wine.</font></td>
-</tr>
-<tr>
-<td align="center">🟢</td>
-<td><strong>War Thunder</strong></td>
-<td>Play regularly</td>
-<td>✅ Native Linux client (BattlEye)</td>
-<td bgcolor="#16a34a"><font color="#ffffff"><strong>5/5</strong> — Official native build; no Proton needed<br/><br/><a href="https://store.steampowered.com/app/236390/War_Thunder/"><font color="#ffffff">Steam</font></a> installs Linux client automatically; Proton optional for Windows build (DX12 features).</font></td>
 </tr>
 <tr>
 <td align="center">🟠</td>
@@ -198,6 +163,57 @@ Personal list of apps and tools that still keep me from switching Windows to Lin
 <td>MTG Arena — stats &amp; overlay</td>
 <td>❌ No native Linux client</td>
 <td bgcolor="#ea580c"><font color="#ffffff"><strong>2/5</strong> — Proton workaround; overlay unreliable on Wayland<br/><br/><a href="https://github.com/sabedevops/wine_untappedgg_companion"><font color="#ffffff">wine_untappedgg_companion</font></a> in Arena prefix; <a href="https://mtgatool.com/"><font color="#ffffff">MTG Arena Tool</font></a> (native, different product).</font></td>
+</tr>
+</tbody>
+</table>
+
+## Linux compatible apps
+
+<table>
+<thead>
+<tr>
+<th></th>
+<th>App</th>
+<th>Why it matters</th>
+<th>Linux status</th>
+<th>Linux alternative &amp; compatibility</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">🟢</td>
+<td><strong>Obsidian</strong></td>
+<td>Notes and knowledge base</td>
+<td>✅ Official Linux client</td>
+<td bgcolor="#16a34a"><font color="#ffffff"><strong>5/5</strong> — Official desktop app on Linux<br/><br/><a href="https://obsidian.md/download"><font color="#ffffff">Obsidian</font></a> — AppImage, Snap, Deb, <a href="https://flathub.org/apps/md.obsidian.Obsidian"><font color="#ffffff">Flatpak</font></a>.</font></td>
+</tr>
+<tr>
+<td align="center">🟢</td>
+<td><strong>Morgen</strong></td>
+<td>Calendar and daily planning</td>
+<td>✅ Official Linux client</td>
+<td bgcolor="#16a34a"><font color="#ffffff"><strong>5/5</strong> — Official desktop app on Linux<br/><br/><a href="https://www.morgen.so/morgen-for-linux"><font color="#ffffff">Morgen</font></a> via <a href="https://snapcraft.io/morgen"><font color="#ffffff">Snap</font></a> or <a href="https://web.morgen.so/"><font color="#ffffff">web</font></a>.</font></td>
+</tr>
+<tr>
+<td align="center">🟢</td>
+<td><strong>Todoist</strong></td>
+<td>Task management</td>
+<td>✅ Official Linux client</td>
+<td bgcolor="#16a34a"><font color="#ffffff"><strong>5/5</strong> — Official app with desktop feature parity<br/><br/><a href="https://www.todoist.com/downloads/linux"><font color="#ffffff">Todoist for Linux</font></a> via <a href="https://snapcraft.io/todoist"><font color="#ffffff">Snap</font></a> or AppImage.</font></td>
+</tr>
+<tr>
+<td align="center">🟢</td>
+<td><strong>Cursor</strong></td>
+<td>Primary IDE / dev workflow</td>
+<td>✅ Official Linux client</td>
+<td bgcolor="#16a34a"><font color="#ffffff"><strong>5/5</strong> — Official desktop app on Linux<br/><br/><a href="https://cursor.com/download"><font color="#ffffff">Cursor</font></a> — .deb/.rpm (APT repo), AppImage; <a href="https://cursor.com/docs/cli/overview"><font color="#ffffff">Agent CLI</font></a> via <code>curl https://cursor.com/install -fsS | bash</code>.</font></td>
+</tr>
+<tr>
+<td align="center">🟢</td>
+<td><strong>War Thunder</strong></td>
+<td>Play regularly</td>
+<td>✅ Native Linux client (BattlEye)</td>
+<td bgcolor="#16a34a"><font color="#ffffff"><strong>5/5</strong> — Official native build; no Proton needed<br/><br/><a href="https://store.steampowered.com/app/236390/War_Thunder/"><font color="#ffffff">Steam</font></a> installs Linux client automatically; Proton optional for Windows build (DX12 features).</font></td>
 </tr>
 </tbody>
 </table>
