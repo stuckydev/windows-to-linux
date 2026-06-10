@@ -71,6 +71,13 @@ Personal list of apps and tools that still keep me from switching Windows to Lin
 </tr>
 <tr>
 <td align="center">🟢</td>
+<td><strong>Obsidian</strong></td>
+<td>Notes and knowledge base</td>
+<td>✅ Official Linux client</td>
+<td bgcolor="#16a34a"><font color="#ffffff"><strong>5/5</strong> — Official desktop app on Linux<br/><br/><a href="https://obsidian.md/download"><font color="#ffffff">Obsidian</font></a> — AppImage, Snap, Deb, <a href="https://flathub.org/apps/md.obsidian.Obsidian"><font color="#ffffff">Flatpak</font></a>.</font></td>
+</tr>
+<tr>
+<td align="center">🟢</td>
 <td><strong>Morgen</strong></td>
 <td>Calendar and daily planning</td>
 <td>✅ Official Linux client</td>
