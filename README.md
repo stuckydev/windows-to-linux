@@ -16,41 +16,6 @@ Personal list of apps and tools that still keep me from switching Windows to Lin
 | 🟠 | PWA with most features **or** original app runnable via Wine/Proton etc. |
 | 🔴 | No Linux version · only alternatives with different features · only worse alternatives |
 
-### Compatibility rating
-
-Subjective score for how well Linux covers the same job today — independent of the traffic light above.
-
-<table>
-<thead>
-<tr>
-<th>Score</th>
-<th>Meaning</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td bgcolor="#dc2626" align="center"><font color="#ffffff"><strong>1/5</strong></font></td>
-<td>Blocked — not runnable on Linux</td>
-</tr>
-<tr>
-<td bgcolor="#ea580c" align="center"><font color="#ffffff"><strong>2/5</strong></font></td>
-<td>Poor — barely usable, major gaps</td>
-</tr>
-<tr>
-<td bgcolor="#ca8a04" align="center"><font color="#ffffff"><strong>3/5</strong></font></td>
-<td>Fair — usable with workarounds or partial replacements</td>
-</tr>
-<tr>
-<td bgcolor="#65a30d" align="center"><font color="#ffffff"><strong>4/5</strong></font></td>
-<td>Good — solid alternatives or minor gaps only</td>
-</tr>
-<tr>
-<td bgcolor="#16a34a" align="center"><font color="#ffffff"><strong>5/5</strong></font></td>
-<td>Excellent — native/official, full workflow</td>
-</tr>
-</tbody>
-</table>
-
 ---
 
 ## Productivity & Work
