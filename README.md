@@ -131,6 +131,20 @@ Personal list of apps and tools that still keep me from switching Windows to Lin
 </tr>
 <tr>
 <td align="center">🟢</td>
+<td><strong>War Thunder</strong></td>
+<td>Play regularly</td>
+<td>✅ Native Linux client (BattlEye)</td>
+<td bgcolor="#16a34a"><font color="#ffffff"><strong>5/5</strong> — Official native build; no Proton needed<br/><br/><a href="https://store.steampowered.com/app/236390/War_Thunder/"><font color="#ffffff">Steam</font></a> installs Linux client automatically; Proton optional for Windows build (DX12 features).</font></td>
+</tr>
+<tr>
+<td align="center">🟠</td>
+<td><strong>Mechabellum</strong></td>
+<td>Play regularly</td>
+<td>⚠️ No native Linux</td>
+<td bgcolor="#65a30d"><font color="#ffffff"><strong>4/5</strong> — Runs well via Proton; occasional driver/fullscreen quirks<br/><br/><a href="https://store.steampowered.com/app/669330/Mechabellum/"><font color="#ffffff">Steam + Proton</font></a> (<a href="https://www.protondb.com/app/669330"><font color="#ffffff">ProtonDB</font></a> Gold).</font></td>
+</tr>
+<tr>
+<td align="center">🟢</td>
 <td><strong>17Lands Client</strong></td>
 <td>MTG Arena — draft/meta tracking</td>
 <td>✅ Official Linux client (Python)</td>
