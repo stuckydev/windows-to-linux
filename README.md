@@ -2,11 +2,7 @@
 
 Personal list of apps and tools that still keep me from switching Windows to Linux as a daily driver — because they don't run on Linux or lack good alternatives.
 
-> Web versions don't count as replacements for me; this is about native desktop experience and workflow. In **Linux alternative & compatibility**, the score line is the assessment; below it are alternatives only.
-
-**Last checked:** June 11, 2026 — another daily-driver test, result still disappointing.
-
-**Bottom line:** Linux remains my dev, test, and tinkering environment.
+**Last checked:** June 11, 2026
 
 ### Traffic light
 
