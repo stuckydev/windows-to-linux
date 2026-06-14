@@ -2,7 +2,7 @@
 
 Personal list of apps and tools that still keep me from switching Windows to Linux as a daily driver — because they don't run on Linux or lack good alternatives.
 
-**Last checked:** June 10, 2026
+**Last checked:** June 14, 2026
 
 ### Traffic light
 
@@ -60,7 +60,7 @@ Personal list of apps and tools that still keep me from switching Windows to Lin
 <td><strong>WorkingHours</strong></td>
 <td>Main time-tracking app</td>
 <td>❌ Windows, macOS, Android, iOS only</td>
-<td bgcolor="#ca8a04"><font color="#ffffff"><strong>3/5</strong> — Mature time trackers, different feature set<br/><br/><a href="https://github.com/unobserved-io/Furtherance"><font color="#ffffff">Furtherance</font></a>, <a href="https://github.com/instantolap/timeworm"><font color="#ffffff">TimeWorm</font></a>, <a href="https://apps.lashman.live/zeroclock/"><font color="#ffffff">ZeroClock</font></a>, <a href="https://toggl.com/track/"><font color="#ffffff">Toggl Track</font></a>.</font></td>
+<td bgcolor="#ca8a04"><font color="#ffffff"><strong>3/5</strong> — Mature time trackers, different feature set<br/><br/><a href="https://github.com/unobserved-io/Furtherance"><font color="#ffffff">Furtherance</font></a>, <a href="https://activitywatch.net/"><font color="#ffffff">ActivityWatch</font></a>, <a href="https://super-productivity.com/"><font color="#ffffff">Super Productivity</font></a>, <a href="https://timewarrior.net/"><font color="#ffffff">Timewarrior</font></a>, <a href="https://toggl.com/track/"><font color="#ffffff">Toggl Track</font></a> (web/apps).</font></td>
 </tr>
 <tr>
 <td align="center">🟠</td>
@@ -110,8 +110,8 @@ Personal list of apps and tools that still keep me from switching Windows to Lin
 <td align="center">🟠</td>
 <td><strong>WhatsApp Desktop</strong></td>
 <td>Everyday messaging</td>
-<td>✅ Official WhatsApp Web/PWA; no Linux desktop client</td>
-<td bgcolor="#65a30d"><font color="#ffffff"><strong>4/5</strong> — Daily messaging works without official client<br/><br/>WhatsApp Web / PWA; <a href="https://flathub.org/apps/com.ktechpit.whatsie"><font color="#ffffff">Whatsie</font></a>, <a href="https://github.com/tobagin/karere"><font color="#ffffff">Karere</font></a>, <a href="https://github.com/karem505/whatRust"><font color="#ffffff">whatRust</font></a>.</font></td>
+<td>✅ Official WhatsApp Web; no Linux desktop client</td>
+<td bgcolor="#65a30d"><font color="#ffffff"><strong>4/5</strong> — Daily messaging works without official client<br/><br/>WhatsApp Web; <a href="https://flathub.org/apps/com.ktechpit.whatsie"><font color="#ffffff">Whatsie</font></a>, <a href="https://github.com/tobagin/karere"><font color="#ffffff">Karere</font></a>, <a href="https://github.com/karem505/whatRust"><font color="#ffffff">whatRust</font></a>.</font></td>
 </tr>
 </tbody>
 </table>
