@@ -2,7 +2,7 @@
 
 Personal list of apps and tools that still keep me from switching Windows to Linux as a daily driver — because they don't run on Linux or lack good alternatives.
 
-**Last checked:** June 14, 2026
+**Last checked:** June 21, 2026
 
 ### Traffic light
 
@@ -90,14 +90,14 @@ Personal list of apps and tools that still keep me from switching Windows to Lin
 <td><strong>ShareX</strong></td>
 <td>Screenshots &amp; screen recording — fast, flexible, best tool for me</td>
 <td>⚠️ No ShareX, replacements exist</td>
-<td bgcolor="#65a30d"><font color="#ffffff"><strong>4/5</strong> — Capture + record covered; automation/upload lag behind ShareX<br/><br/><a href="https://github.com/vedesh-padal/ShotX"><font color="#ffffff">ShotX</font></a>, <a href="https://github.com/SnapXL/SnapX"><font color="#ffffff">SnapX</font></a> (screenshot + recording), <a href="https://flameshot.org/"><font color="#ffffff">Flameshot</font></a> (screenshots only).</font></td>
+<td bgcolor="#65a30d"><font color="#ffffff"><strong>4/5</strong> — Capture + record covered; automation/upload lag behind ShareX<br/><br/><a href="https://apexshot.org/sharex-for-linux"><font color="#ffffff">ApexShot</font></a>, <a href="https://github.com/SnapXL/SnapX"><font color="#ffffff">SnapX</font></a> (alpha), <a href="https://flameshot.org/"><font color="#ffffff">Flameshot</font></a> (screenshots only).</font></td>
 </tr>
 <tr>
-<td align="center">🔴</td>
+<td align="center">🟠</td>
 <td><strong>Elgato Stream Deck</strong></td>
 <td>Controls hardware on my desk (1 device)</td>
 <td>⚠️ No Elgato software</td>
-<td bgcolor="#ca8a04"><font color="#ffffff"><strong>3/5</strong> — Viable for daily use; unofficial, not every plugin<br/><br/><a href="https://github.com/nekename/OpenDeck"><font color="#ffffff">OpenDeck</font></a>, <a href="https://github.com/StreamController/StreamController"><font color="#ffffff">StreamController</font></a>.</font></td>
+<td bgcolor="#ca8a04"><font color="#ffffff"><strong>3/5</strong> — Viable for daily use; unofficial, not every plugin<br/><br/><a href="https://github.com/nekename/OpenDeck"><font color="#ffffff">OpenDeck</font></a> (majority of original plugins), <a href="https://github.com/StreamController/StreamController"><font color="#ffffff">StreamController</font></a>.</font></td>
 </tr>
 <tr>
 <td align="center">🔴</td>
@@ -133,15 +133,15 @@ Personal list of apps and tools that still keep me from switching Windows to Lin
 <td align="center">🔴</td>
 <td><strong>League of Legends</strong> <em>(Teamfight Tactics only)</em></td>
 <td>I only need the Riot client for TFT</td>
-<td>❌ Desktop TFT blocked by Vanguard</td>
-<td bgcolor="#dc2626"><font color="#ffffff"><strong>1/5</strong> — No usable Linux path for desktop TFT<br/><br/><a href="https://leagueoflinux.org/other_games/teamfight_tactics/"><font color="#ffffff">League of Linux TFT status</font></a>; dual-boot / external Windows install only.</font></td>
+<td>❌ Desktop TFT blocked by Vanguard; mobile only partially usable</td>
+<td bgcolor="#dc2626"><font color="#ffffff"><strong>1/5</strong> — No usable Linux path for desktop TFT<br/><br/><a href="https://leagueoflinux.org/other_games/teamfight_tactics/"><font color="#ffffff">League of Linux TFT status</font></a>; <a href="https://support-leagueoflegends.riotgames.com/hc/en-us/articles/48069719245587-Error-VAN-RESTRICTION"><font color="#ffffff">Vanguard Windows requirements</font></a>; dual-boot / internal Windows install only.</font></td>
 </tr>
 <tr>
 <td align="center">🟠</td>
 <td><strong>Magic: The Gathering Arena</strong></td>
 <td>Play regularly; base for tracker tools</td>
 <td>⚠️ No native Linux</td>
-<td bgcolor="#ca8a04"><font color="#ffffff"><strong>3/5</strong> — Playable via Proton; patch/version roulette<br/><br/><a href="https://store.steampowered.com/app/2141910/Magic_The_Gathering_Arena/"><font color="#ffffff">Steam + Proton</font></a> (<a href="https://www.protondb.com/app/2141910"><font color="#ffffff">ProtonDB</font></a>), Lutris/Wine.</font></td>
+<td bgcolor="#ca8a04"><font color="#ffffff"><strong>3/5</strong> — Playable via Proton; current ProtonDB Platinum, but no native build and occasional Proton-specific regressions/freezes<br/><br/><a href="https://store.steampowered.com/app/2141910/Magic_The_Gathering_Arena/"><font color="#ffffff">Steam + Proton</font></a> (<a href="https://www.protondb.com/app/2141910"><font color="#ffffff">ProtonDB</font></a>), Lutris/Wine; <a href="https://feedback.wizards.com/forums/918667-mtg-arena-bugs-product-suggestions/suggestions/51095899-audio-starvation-freeze-on-proton"><font color="#ffffff">known Proton freeze report</font></a>.</font></td>
 </tr>
 <tr>
 <td align="center">🟠</td>
@@ -155,14 +155,14 @@ Personal list of apps and tools that still keep me from switching Windows to Lin
 <td><strong>17Lands Client</strong></td>
 <td>MTG Arena — draft/meta tracking</td>
 <td>✅ Official Linux client (Python)</td>
-<td bgcolor="#65a30d"><font color="#ffffff"><strong>4/5</strong> — Official client; setup friction with Proton log paths<br/><br/><code>pip install seventeenlands</code> — <a href="https://www.17lands.com/getting_started"><font color="#ffffff">official guide</font></a>.</font></td>
+<td bgcolor="#65a30d"><font color="#ffffff"><strong>4/5</strong> — Official client; setup friction with Steam/Proton log paths<br/><br/><code>pip3 install --user seventeenlands</code> — <a href="https://www.17lands.com/getting_started"><font color="#ffffff">official guide</font></a> (<code>compatdata/2141910/.../Player.log</code>).</font></td>
 </tr>
 <tr>
 <td align="center">🟠</td>
 <td><strong>Untapped.gg Client</strong></td>
 <td>MTG Arena — stats &amp; overlay</td>
 <td>❌ No native Linux client</td>
-<td bgcolor="#ea580c"><font color="#ffffff"><strong>2/5</strong> — Proton workaround; overlay unreliable on Wayland<br/><br/><a href="https://github.com/sabedevops/wine_untappedgg_companion"><font color="#ffffff">wine_untappedgg_companion</font></a> in Arena prefix; <a href="https://mtgatool.com/"><font color="#ffffff">MTG Arena Tool</font></a> (native, different product).</font></td>
+<td bgcolor="#ea580c"><font color="#ffffff"><strong>2/5</strong> — Proton workaround; overlay unreliable, pop-out window is the safer path<br/><br/><a href="https://github.com/sabedevops/wine_untappedgg_companion"><font color="#ffffff">wine_untappedgg_companion</font></a> in Arena prefix; <a href="https://mtgatool.com/docs/installation"><font color="#ffffff">MTG Arena Tool</font></a> (native, different product).</font></td>
 </tr>
 </tbody>
 </table>
