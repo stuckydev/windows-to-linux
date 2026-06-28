@@ -2,7 +2,7 @@
 
 Personal list of apps and tools that still keep me from switching Windows to Linux as a daily driver — because they don't run on Linux or lack good alternatives.
 
-**Last checked:** June 21, 2026
+**Last checked:** June 28, 2026
 
 ### Traffic light
 
