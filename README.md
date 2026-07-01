@@ -2,7 +2,7 @@
 
 Personal list of apps and tools that still keep me from switching Windows to Linux as a daily driver — because they don't run on Linux or lack good alternatives.
 
-**Last checked:** June 28, 2026
+**Last checked:** July 1, 2026
 
 ### Traffic light
 
@@ -60,7 +60,7 @@ Personal list of apps and tools that still keep me from switching Windows to Lin
 <td><strong>WorkingHours</strong></td>
 <td>Main time-tracking app</td>
 <td>❌ Windows, macOS, Android, iOS only</td>
-<td bgcolor="#ca8a04"><font color="#ffffff"><strong>3/5</strong> — Mature time trackers, different feature set<br/><br/><a href="https://github.com/unobserved-io/Furtherance"><font color="#ffffff">Furtherance</font></a>, <a href="https://activitywatch.net/"><font color="#ffffff">ActivityWatch</font></a>, <a href="https://super-productivity.com/"><font color="#ffffff">Super Productivity</font></a>, <a href="https://timewarrior.net/"><font color="#ffffff">Timewarrior</font></a>, <a href="https://toggl.com/track/"><font color="#ffffff">Toggl Track</font></a> (web/apps).</font></td>
+<td bgcolor="#ca8a04"><font color="#ffffff"><strong>3/5</strong> — Mature time trackers, different feature set<br/><br/><a href="https://github.com/unobserved-io/Furtherance"><font color="#ffffff">Furtherance</font></a>, <a href="https://activitywatch.net/"><font color="#ffffff">ActivityWatch</font></a>, <a href="https://super-productivity.com/"><font color="#ffffff">Super Productivity</font></a>, <a href="https://timewarrior.net/"><font color="#ffffff">Timewarrior</font></a>, <a href="https://clockify.me/help/apps/linux-desktop-app"><font color="#ffffff">Clockify</font></a> (official Linux app), <a href="https://www.kimai.org/"><font color="#ffffff">Kimai</font></a> (self-hosted).</font></td>
 </tr>
 <tr>
 <td align="center">🟠</td>
@@ -90,21 +90,21 @@ Personal list of apps and tools that still keep me from switching Windows to Lin
 <td><strong>ShareX</strong></td>
 <td>Screenshots &amp; screen recording — fast, flexible, best tool for me</td>
 <td>⚠️ No ShareX, replacements exist</td>
-<td bgcolor="#65a30d"><font color="#ffffff"><strong>4/5</strong> — Capture + record covered; automation/upload lag behind ShareX<br/><br/><a href="https://apexshot.org/sharex-for-linux"><font color="#ffffff">ApexShot</font></a>, <a href="https://github.com/SnapXL/SnapX"><font color="#ffffff">SnapX</font></a> (alpha), <a href="https://flameshot.org/"><font color="#ffffff">Flameshot</font></a> (screenshots only).</font></td>
+<td bgcolor="#65a30d"><font color="#ffffff"><strong>4/5</strong> — Capture + record covered; automation/upload lag behind ShareX<br/><br/><a href="https://apexshot.org/sharex-for-linux"><font color="#ffffff">ApexShot</font></a>, <a href="https://github.com/SnapXL/SnapX"><font color="#ffffff">SnapX</font></a> (cross-platform ShareX fork), <a href="https://flameshot.org/"><font color="#ffffff">Flameshot</font></a> (screenshots only).</font></td>
 </tr>
 <tr>
 <td align="center">🟠</td>
 <td><strong>Elgato Stream Deck</strong></td>
 <td>Controls hardware on my desk (1 device)</td>
 <td>⚠️ No Elgato software</td>
-<td bgcolor="#ca8a04"><font color="#ffffff"><strong>3/5</strong> — Viable for daily use; unofficial, not every plugin<br/><br/><a href="https://github.com/nekename/OpenDeck"><font color="#ffffff">OpenDeck</font></a> (majority of original plugins), <a href="https://github.com/StreamController/StreamController"><font color="#ffffff">StreamController</font></a>.</font></td>
+<td bgcolor="#ca8a04"><font color="#ffffff"><strong>3/5</strong> — Viable for daily use; unofficial, not every plugin<br/><br/><a href="https://github.com/nekename/OpenDeck"><font color="#ffffff">OpenDeck</font></a> (plugin store; not every Elgato plugin), <a href="https://github.com/StreamController/StreamController"><font color="#ffffff">StreamController</font></a>.</font></td>
 </tr>
 <tr>
 <td align="center">🔴</td>
 <td><strong>Logitech G HUB</strong></td>
 <td>4 devices: updates, control, battery status</td>
 <td>❌ No Linux client</td>
-<td bgcolor="#ea580c"><font color="#ffffff"><strong>2/5</strong> — Day-to-day control ok; no firmware updates<br/><br/><a href="https://github.com/pwr-Solaar/Solaar"><font color="#ffffff">Solaar</font></a> (wireless, battery), <a href="https://github.com/libratbag/piper"><font color="#ffffff">Piper</font></a>/<a href="https://github.com/libratbag/libratbag"><font color="#ffffff">libratbag</font></a> (gaming mice).</font></td>
+<td bgcolor="#ea580c"><font color="#ffffff"><strong>2/5</strong> — Day-to-day control ok; firmware updates device-dependent<br/><br/><a href="https://github.com/pwr-Solaar/Solaar"><font color="#ffffff">Solaar</font></a> (wireless, battery), <a href="https://github.com/libratbag/piper"><font color="#ffffff">Piper</font></a>/<a href="https://github.com/libratbag/libratbag"><font color="#ffffff">libratbag</font></a> (gaming mice), <a href="https://fwupd.org/lvfs/vendors/"><font color="#ffffff">fwupd/LVFS</font></a> (some firmware).</font></td>
 </tr>
 <tr>
 <td align="center">🟠</td>
@@ -185,35 +185,35 @@ Personal list of apps and tools that still keep me from switching Windows to Lin
 <td><strong>Obsidian</strong></td>
 <td>Notes and knowledge base</td>
 <td>✅ Official Linux client</td>
-<td bgcolor="#16a34a"><font color="#ffffff"><strong>5/5</strong> — Official desktop app on Linux<br/><br/><a href="https://obsidian.md/download"><font color="#ffffff">Obsidian</font></a> — AppImage, Snap, Deb, <a href="https://flathub.org/apps/md.obsidian.Obsidian"><font color="#ffffff">Flatpak</font></a>.</font></td>
+<td bgcolor="#16a34a"><font color="#ffffff"><strong>5/5</strong> — Official desktop app on Linux<br/><br/><a href="https://obsidian.md/download"><font color="#ffffff">Obsidian</font></a> — AppImage, Snap, Deb; <a href="https://flathub.org/apps/md.obsidian.Obsidian"><font color="#ffffff">Flatpak</font></a> is community-maintained.</font></td>
 </tr>
 <tr>
 <td align="center">🟢</td>
 <td><strong>Morgen</strong></td>
 <td>Calendar and daily planning</td>
 <td>✅ Official Linux client</td>
-<td bgcolor="#16a34a"><font color="#ffffff"><strong>5/5</strong> — Official desktop app on Linux<br/><br/><a href="https://www.morgen.so/morgen-for-linux"><font color="#ffffff">Morgen</font></a> via <a href="https://snapcraft.io/morgen"><font color="#ffffff">Snap</font></a> or <a href="https://web.morgen.so/"><font color="#ffffff">web</font></a>.</font></td>
+<td bgcolor="#16a34a"><font color="#ffffff"><strong>5/5</strong> — Official desktop app on Linux<br/><br/><a href="https://www.morgen.so/morgen-for-linux"><font color="#ffffff">Morgen</font></a> via <a href="https://snapcraft.io/morgen"><font color="#ffffff">Snap</font></a>; <a href="https://web.morgen.so/"><font color="#ffffff">web</font></a> for browser use.</font></td>
 </tr>
 <tr>
 <td align="center">🟢</td>
 <td><strong>Todoist</strong></td>
 <td>Task management</td>
 <td>✅ Official Linux client</td>
-<td bgcolor="#16a34a"><font color="#ffffff"><strong>5/5</strong> — Official app with desktop feature parity<br/><br/><a href="https://www.todoist.com/downloads/linux"><font color="#ffffff">Todoist for Linux</font></a> via <a href="https://snapcraft.io/todoist"><font color="#ffffff">Snap</font></a> or AppImage.</font></td>
+<td bgcolor="#16a34a"><font color="#ffffff"><strong>5/5</strong> — Official Linux app via Snap/AppImage<br/><br/><a href="https://www.todoist.com/downloads/linux"><font color="#ffffff">Todoist for Linux</font></a> via <a href="https://snapcraft.io/todoist"><font color="#ffffff">Snap</font></a> or AppImage; official support targets Ubuntu with GNOME.</font></td>
 </tr>
 <tr>
 <td align="center">🟢</td>
 <td><strong>Cursor</strong></td>
 <td>Primary IDE / dev workflow</td>
 <td>✅ Official Linux client</td>
-<td bgcolor="#16a34a"><font color="#ffffff"><strong>5/5</strong> — Official desktop app on Linux<br/><br/><a href="https://cursor.com/download"><font color="#ffffff">Cursor</font></a> — .deb/.rpm (APT repo), AppImage; <a href="https://cursor.com/docs/cli/overview"><font color="#ffffff">Agent CLI</font></a> via <code>curl https://cursor.com/install -fsS | bash</code>.</font></td>
+<td bgcolor="#16a34a"><font color="#ffffff"><strong>5/5</strong> — Official desktop app on Linux<br/><br/><a href="https://cursor.com/download"><font color="#ffffff">Cursor</font></a> — .deb/.rpm repos, AppImage; <a href="https://cursor.com/docs/cli/overview"><font color="#ffffff">Agent CLI</font></a> via <code>curl https://cursor.com/install -fsS | bash</code>.</font></td>
 </tr>
 <tr>
 <td align="center">🟢</td>
 <td><strong>War Thunder</strong></td>
 <td>Play regularly</td>
 <td>✅ Native Linux client (BattlEye)</td>
-<td bgcolor="#16a34a"><font color="#ffffff"><strong>5/5</strong> — Official native build; no Proton needed<br/><br/><a href="https://store.steampowered.com/app/236390/War_Thunder/"><font color="#ffffff">Steam</font></a> installs Linux client automatically; Proton optional for Windows build (DX12 features).</font></td>
+<td bgcolor="#16a34a"><font color="#ffffff"><strong>5/5</strong> — Official native build; no Proton needed<br/><br/><a href="https://store.steampowered.com/app/236390/War_Thunder/"><font color="#ffffff">Steam</font></a> installs the Linux client automatically.</font></td>
 </tr>
 </tbody>
 </table>
