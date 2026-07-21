@@ -56,13 +56,6 @@ Personal list of apps and tools that still keep me from switching Windows to Lin
 <td bgcolor="#65a30d"><font color="#ffffff"><strong>4/5</strong> — Solid sync via community clients; not the official app<br/><br/><a href="https://github.com/abraunegg/onedrive"><font color="#ffffff">onedrive</font></a> + <a href="https://github.com/bpozdena/OneDriveGUI"><font color="#ffffff">OneDriveGUI</font></a>, <a href="https://github.com/jstaf/onedriver"><font color="#ffffff">onedriver</font></a>, <a href="https://github.com/Auriora/OneMount"><font color="#ffffff">OneMount</font></a>, <a href="https://rclone.org/"><font color="#ffffff">rclone</font></a>.</font></td>
 </tr>
 <tr>
-<td align="center">🔴</td>
-<td><strong>WorkingHours</strong></td>
-<td>Main time-tracking app</td>
-<td>❌ Windows, macOS, Android, iOS only</td>
-<td bgcolor="#ca8a04"><font color="#ffffff"><strong>3/5</strong> — Mature time trackers, different feature set<br/><br/><a href="https://github.com/unobserved-io/Furtherance"><font color="#ffffff">Furtherance</font></a>, <a href="https://activitywatch.net/"><font color="#ffffff">ActivityWatch</font></a>, <a href="https://super-productivity.com/"><font color="#ffffff">Super Productivity</font></a>, <a href="https://timewarrior.net/"><font color="#ffffff">Timewarrior</font></a>, <a href="https://clockify.me/help/apps/linux-desktop-app"><font color="#ffffff">Clockify</font></a> (official Linux app), <a href="https://www.kimai.org/"><font color="#ffffff">Kimai</font></a> (self-hosted).</font></td>
-</tr>
-<tr>
 <td align="center">🟠</td>
 <td><strong>Notion</strong></td>
 <td>Notes and workspace</td>
@@ -135,6 +128,13 @@ Personal list of apps and tools that still keep me from switching Windows to Lin
 <td>I only need the Riot client for TFT</td>
 <td>❌ Desktop TFT blocked by Vanguard; mobile only partially usable</td>
 <td bgcolor="#dc2626"><font color="#ffffff"><strong>1/5</strong> — No usable Linux path for desktop TFT<br/><br/><a href="https://leagueoflinux.org/other_games/teamfight_tactics/"><font color="#ffffff">League of Linux TFT status</font></a>; <a href="https://support-leagueoflegends.riotgames.com/hc/en-us/articles/48069719245587-Error-VAN-RESTRICTION"><font color="#ffffff">Vanguard Windows requirements</font></a>; dual-boot / internal Windows install only.</font></td>
+</tr>
+<tr>
+<td align="center">🔴</td>
+<td><strong>PUBG: BATTLEGROUNDS</strong></td>
+<td>Play regularly</td>
+<td>❌ Blocked by BattlEye; no Linux/Proton opt-in</td>
+<td bgcolor="#dc2626"><font color="#ffffff"><strong>1/5</strong> — Unplayable on Linux; BattlEye not enabled for Proton<br/><br/><a href="https://www.protondb.com/app/578080"><font color="#ffffff">ProtonDB</font></a> (Borked); <a href="https://caniplayonlinux.com/games/pubg-battlegrounds/"><font color="#ffffff">Can I Play on Linux?</font></a>; dual-boot / Windows only.</font></td>
 </tr>
 <tr>
 <td align="center">🟠</td>
