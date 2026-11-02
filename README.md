@@ -2,7 +2,8 @@
 
 Personal list of apps and tools that still keep me from switching Windows to Linux as a daily driver — because they don't run on Linux or lack good alternatives.
 
-**Last checked:** September 1, 2026
+**Last checked:** November 1, 2026
+=======
 
 ### Traffic light
 
@@ -83,7 +84,7 @@ Personal list of apps and tools that still keep me from switching Windows to Lin
 <td><strong>ShareX</strong></td>
 <td>Screenshots &amp; screen recording — fast, flexible, best tool for me</td>
 <td>⚠️ No ShareX, replacements exist</td>
-<td bgcolor="#65a30d"><font color="#ffffff"><strong>4/5</strong> — Capture + record covered; automation/upload lag behind ShareX<br/><br/><a href="https://apexshot.org/sharex-for-linux"><font color="#ffffff">ApexShot</font></a>, <a href="https://github.com/SnapXL/SnapX"><font color="#ffffff">SnapX</font></a> (cross-platform ShareX fork), <a href="https://flameshot.org/"><font color="#ffffff">Flameshot</font></a> (screenshots only).</font></td>
+<td bgcolor="#65a30d"><font color="#ffffff"><strong>4/5</strong> — Capture + record covered; automation/upload lag behind ShareX<br/><br/><a href="https://apexshot.org/sharex-for-linux"><font color="#ffffff">ApexShot</font></a>, <a href="https://github.com/sharex/xerahs"><font color="#ffffff">XerahS</font></a> (early cross-platform ShareX reimagining), <a href="https://github.com/SnapXL/SnapX"><font color="#ffffff">SnapX</font></a> (cross-platform ShareX fork), <a href="https://flameshot.org/"><font color="#ffffff">Flameshot</font></a> (screenshots only).</font></td>
 </tr>
 <tr>
 <td align="center">🟠</td>
@@ -141,7 +142,7 @@ Personal list of apps and tools that still keep me from switching Windows to Lin
 <td><strong>Magic: The Gathering Arena</strong></td>
 <td>Play regularly; base for tracker tools</td>
 <td>⚠️ No native Linux</td>
-<td bgcolor="#ca8a04"><font color="#ffffff"><strong>3/5</strong> — Playable via Proton; current ProtonDB Platinum, but no native build and occasional Proton-specific regressions/freezes<br/><br/><a href="https://store.steampowered.com/app/2141910/Magic_The_Gathering_Arena/"><font color="#ffffff">Steam + Proton</font></a> (<a href="https://www.protondb.com/app/2141910"><font color="#ffffff">ProtonDB</font></a>), Lutris/Wine; <a href="https://feedback.wizards.com/forums/918667-mtg-arena-bugs-product-suggestions/suggestions/51095899-audio-starvation-freeze-on-proton"><font color="#ffffff">known Proton freeze report</font></a>.</font></td>
+<td bgcolor="#ca8a04"><font color="#ffffff"><strong>3/5</strong> — Playable via Proton; current ProtonDB Platinum, but no native build and occasional Proton-specific regressions<br/><br/><a href="https://store.steampowered.com/app/2141910/Magic_The_Gathering_Arena/"><font color="#ffffff">Steam + Proton</font></a> (<a href="https://www.protondb.com/app/2141910"><font color="#ffffff">ProtonDB</font></a>), Lutris/Wine.</font></td>
 </tr>
 <tr>
 <td align="center">🟠</td>
